@@ -3,11 +3,11 @@ import Image from "next/image";
 
 const footerLinks = [
   { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/products", label: "Products" },
-  { href: "/how-it-works", label: "How it works" },
-  { href: "/faq", label: "FAQ" },
-  { href: "/contact", label: "Contact" },
+  { href: "/#about", label: "About" },
+  { href: "/#products", label: "Products" },
+  { href: "/#how-it-works", label: "How it works" },
+  { href: "/#faq", label: "FAQ" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 export default function Footer() {
@@ -47,7 +47,7 @@ export default function Footer() {
               Get in touch for pallet supply, collection or waste solutions.
             </p>
             <Link
-              href="/contact"
+              href="/#contact"
               className="mt-3 inline-block text-sm font-medium text-orange-400 hover:text-orange-300"
             >
               Contact us →

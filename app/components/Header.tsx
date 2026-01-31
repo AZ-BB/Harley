@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/products", label: "Products" },
-  { href: "/how-it-works", label: "How it works" },
-  { href: "/faq", label: "FAQ" },
+  { href: "/#about", label: "About" },
+  { href: "/#products", label: "Products" },
+  { href: "/#how-it-works", label: "How it works" },
+  { href: "/#faq", label: "FAQ" },
 ];
 
 export default function Header() {
@@ -35,7 +35,7 @@ export default function Header() {
           ))}
         </nav>
         <Link
-          href="/contact"
+          href="/#contact"
           className="inline-flex items-center gap-1.5 rounded-lg bg-orange-600 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-orange-700"
         >
           Contact us
