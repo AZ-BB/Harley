@@ -302,7 +302,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="mb-2 text-lg font-bold text-white">Email</h3>
-                <a href="mailto:info@harleypallets.co.uk" className="text-sm text-slate-400 hover:text-orange-400">info@harleypallets.co.uk</a>
+                <a href="mailto:harleypalletsltd@gmail.com" className="text-sm text-slate-400 hover:text-orange-400">harleypalletsltd@gmail.com</a>
               </div>
               <div className="group rounded-2xl border border-slate-700/50 bg-slate-800/50 p-8 text-center backdrop-blur transition-all hover:border-sky-600/50 hover:shadow-xl hover:shadow-sky-600/10">
                 <div className="mx-auto mb-4 inline-flex items-center justify-center rounded-xl bg-sky-600/20 p-3 text-sky-400 ring-1 ring-sky-600/30">
