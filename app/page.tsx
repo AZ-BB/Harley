@@ -215,7 +215,7 @@ export default function Home() {
           <h2 className="mb-12 text-center text-2xl font-bold tracking-tight text-white sm:text-3xl lg:mb-16 lg:text-4xl">
             Trusted by industry leaders
           </h2>
-          <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-5 lg:gap-8">
+          {/* <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-5 lg:gap-8">
             <div className="flex items-center justify-center rounded-xl bg-white/10 p-6 backdrop-blur transition-all hover:bg-white/20 hover:scale-105">
               <Image src="/images/companies/biffa.svg" alt="Biffa" width={120} height={60} className="h-12 w-auto brightness-0 invert" />
             </div>
@@ -246,7 +246,7 @@ export default function Home() {
             <div className="flex items-center justify-center rounded-xl bg-white/10 p-6 backdrop-blur transition-all hover:bg-white/20 hover:scale-105">
               <Image src="/images/companies/Costa.svg" alt="Costa" width={120} height={60} className="h-12 w-auto brightness-0 invert" />
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -311,7 +311,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="mb-2 text-lg font-bold text-white">WhatsApp</h3>
-                <p className="text-sm text-slate-400">Coming soon</p>
+                <a href="https://wa.me/447301584674" className="text-sm text-slate-400 hover:text-sky-400" target="_blank" rel="noopener noreferrer">07301 584674</a>
               </div>
               <div className="group rounded-2xl border border-slate-700/50 bg-slate-800/50 p-8 text-center backdrop-blur transition-all hover:border-green-600/50 hover:shadow-xl hover:shadow-green-600/10">
                 <div className="mx-auto mb-4 inline-flex items-center justify-center rounded-xl bg-green-600/20 p-3 text-green-400 ring-1 ring-green-600/30">
@@ -320,7 +320,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="mb-2 text-lg font-bold text-white">Phone</h3>
-                <p className="text-sm text-slate-400">New number coming soon</p>
+                <a href="tel:+441296252347" className="text-sm text-slate-400 hover:text-green-400">+44 1296 252347</a>
               </div>
             </div>
             <div className="mt-8 rounded-2xl border border-slate-700/50 bg-slate-800/50 p-8 text-center backdrop-blur">
