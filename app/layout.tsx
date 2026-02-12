@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     locale: "en_GB",
   },
   robots: "index, follow",
-  alternates: { canonical: "https://harleypallets.co.uk" },
+  alternates: { canonical: "https://harellypalletslrd.co.uk" },
 };
 
 export default function RootLayout({
